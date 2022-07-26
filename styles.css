@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to bottom, rgba(202, 211, 212, 0.986), rgba(99, 88, 104, 0.753));
+}
+
+.myNumber {
+
+    text-align: center;
+    margin-top: 100px;
+    font-size: 200;
+    box-sizing: border-box;
+    border: 3px solid black;
+    background-color: white;
+
+}
+
+.buttons {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.Increase {
+    background-color: green;
+    border-radius: 10%;
+    border-width: 1rem;
+    border-color: green;
+    border-style: solid;
+}
+
+.Increase:hover {
+    background-color: white;
+    color: green;
+    border-color: white;
+}
+
+.Increase:active {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.Decrease {
+    background-color: red;
+    border-radius: 10%;
+    border-width: 1rem;
+    border-color: red;
+    border-style: solid;
+}
+
+.Decrease:hover {
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+
+.Decrease:active {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.Reset {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    border-width: 1rem;
+    margin-left: 50;
+    margin-right: 50;
+    border-style: solid;
+}
+
+.Reset:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.Reset:active {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
