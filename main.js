@@ -12,7 +12,7 @@ buttons.forEach(function (btn) {
         if (all.contains('increase')) {
             count++;
             valueButton.style.color = 'green'
-            valueButton.innerText = count
+            valueButton.textContent = count
         }
         else if (all.contains('decrease')) {
             count--;
